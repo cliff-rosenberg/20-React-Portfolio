@@ -5,9 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container {
+  height: 100vh;
+  background: rgb(29, 180, 252);
+  background: radial-gradient(circle, rgb(29, 180, 252) 0%, rgb(255, 255, 255) 100%);
 }
