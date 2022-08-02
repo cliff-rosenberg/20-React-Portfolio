@@ -13,14 +13,15 @@ const Portfolio = () => {
         {title: "Card 3", text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."},
         {title: "Card 4", text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."}
     ];
-    
+    const cardQuan = 4;// set to amount of objects in array
+
     useEffect(() => {
         runHolder('image-class-name');
     });
     return (
         <Container>
             <Row xs={1} md={2} className="g-4">
-            {Array.from({ length: 4 }).map((_, idx) => (
+            {Array.from({ length: cardQuan }).map((_, idx) => (
                 <Col key={idx}>
                     <Card>
                         <Card.Img variant="top" src="holder.js/320x240" />
