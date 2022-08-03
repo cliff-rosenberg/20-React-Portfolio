@@ -13,6 +13,10 @@ code {
     monospace;
 }
 
+.navbar-dark .navbar-toggler-icon {
+  color: white;
+}
+
 .container {
   height: 100vh;
   background: rgb(29, 180, 252);
