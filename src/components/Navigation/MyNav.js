@@ -1,13 +1,16 @@
 import React from 'react';
-import './MyNav.css'
 import { MDBIcon } from 'mdb-react-ui-kit';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+
 import { LinkContainer } from 'react-router-bootstrap';
+import './MyNav.css'
 
 const MyNav = () => {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand='sm' bg="dark" variant="dark">
+        <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+        <Navbar.Collapse id='responsive-navbar-nav'>
           <MDBIcon className="mdb-icon text-info" fab icon="react" size='3x'/>
           <LinkContainer to="/">
             <Navbar.Brand href="#home">Cliff Rosenberg</Navbar.Brand>
@@ -26,7 +29,8 @@ const MyNav = () => {
                 <Nav.Link href="#resume">My Resume</Nav.Link>
               </LinkContainer>
             </Nav>
-      </Navbar>
+        </Navbar.Collapse>
+    </Navbar>
   );
 }
 
