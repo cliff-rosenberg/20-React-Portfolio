@@ -1,11 +1,15 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { MDBContainer } from 'mdb-react-ui-kit';
+import hawaii from '../../images/cliff-hawaii.png'
 
 const Home = () => {
     return (
-        <Container>
-            <div>THIS IS THE HOME PAGE</div>
-        </Container>
+        <MDBContainer className="text-center vh-100 bkgrd">
+            <div>
+                <img src={hawaii} className='img-fluid rounded-pill shadow-4' alt='...' />
+            </div>
+            <div className="fs-1">Welcome to my portfolio page!</div>
+        </MDBContainer>
         )
 };
 

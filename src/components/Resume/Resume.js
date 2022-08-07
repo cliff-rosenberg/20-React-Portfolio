@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { MDBContainer } from 'mdb-react-ui-kit';
 
 const Resume = () => {
     return (
-        <Container>
+        <MDBContainer className="bkgrd">
             <div>THIS IS THE RESUME PAGE</div>
-        </Container>
+        </MDBContainer>
         )
 };
 

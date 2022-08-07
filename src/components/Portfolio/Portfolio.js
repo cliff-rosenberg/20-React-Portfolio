@@ -1,8 +1,5 @@
 import React, { useEffect } from 'react';
-import Container from 'react-bootstrap/Container';
-import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import { MDBContainer, MDBRow, MDBCard, MDBCol, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage } from 'mdb-react-ui-kit';
 import { run as runHolder } from 'holderjs/holder';
 import './Portfolio.css'
 
@@ -21,23 +18,23 @@ const Portfolio = () => {
         runHolder('image-class-name');
     });
     return (
-        <Container>
-            <Row xs={1} md={3} className="g-4">
+        <MDBContainer breakpoint="sm" className="vh-100 bkgrd">
+            <MDBRow className="g-4">
             {Array.from({ length: cardQuan }).map((_, idx) => (
-                <Col key={idx}>
-                    <Card className="portfolio-card">
-                        <Card.Img variant="top" src="holder.js/320x240" />
-                        <Card.Body>
-                        <Card.Title>{cardsText[idx].title}</Card.Title>
-                        <Card.Text>
+                <MDBCol key={idx}>
+                    <MDBCard className="portfolio-card">
+                        <MDBCardImage className="rounded mx-auto" position="top" src="holder.js/320x240" />
+                        <MDBCardBody>
+                        <MDBCardTitle>{cardsText[idx].title}</MDBCardTitle>
+                        <MDBCardText>
                             {cardsText[idx].text}
-                        </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
+                        </MDBCardText>
+                        </MDBCardBody>
+                    </MDBCard>
+                </MDBCol>
             ))}
-            </Row>
-        </Container>
+            </MDBRow>
+        </MDBContainer>
         )
 };
 

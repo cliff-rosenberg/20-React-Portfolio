@@ -1,12 +1,12 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
+import { MDBContainer } from 'mdb-react-ui-kit';
 import './Contact.css';
 
 const Contact = () => {
     return (
-        <Container>
+        <MDBContainer className="bkgrd">
             <div>THIS IS THE CONTACT PAGE</div>
-        </Container>
+        </MDBContainer>
         )
 };
 

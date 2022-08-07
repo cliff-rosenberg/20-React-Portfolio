@@ -1,36 +1,64 @@
-import React from 'react';
-import { MDBIcon } from 'mdb-react-ui-kit';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import React, {useState} from 'react';
+import {
+  MDBNavbar,
+  MDBContainer,
+  MDBNavbarBrand,
+  MDBNavbarToggler,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBCollapse,
+  MDBIcon,
+  MDBNavbarNav
+} from 'mdb-react-ui-kit';
 
 import { LinkContainer } from 'react-router-bootstrap';
 import './MyNav.css'
 
 const MyNav = () => {
+  const [showNavNoToggler, setShowNavNoToggler] = useState(false);
+
   return (
-    <Navbar collapseOnSelect expand='sm' bg="dark" variant="dark">
-        <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-        <Navbar.Collapse id='responsive-navbar-nav'>
-          <MDBIcon className="mdb-icon text-info" fab icon="react" size='3x'/>
+    <>
+    <MDBNavbar expand='lg' dark bgColor="dark">
+      <MDBContainer fluid>
+        <MDBNavbarToggler type='button'
+            data-target='#navbarTogglerDemo01'
+            aria-controls='navbarTogglerDemo01'
+            aria-expanded='false'
+            aria-label='Toggle navigation'
+            onClick={() => setShowNavNoToggler(!showNavNoToggler)}>
+            <MDBIcon icon='bars' fas />
+          </MDBNavbarToggler>
+        <MDBCollapse navbar show={showNavNoToggler}>
+        <MDBNavbarNav>
           <LinkContainer to="/">
-            <Navbar.Brand href="#home">Cliff Rosenberg</Navbar.Brand>
+            <MDBNavbarBrand href="#home">Cliff Rosenberg</MDBNavbarBrand>
           </LinkContainer>
-            <Nav className="me-auto">
               <LinkContainer to="/about">
-                <Nav.Link href="#about">About</Nav.Link>
+                <MDBNavbarItem>
+                <MDBNavbarLink href="#about">About</MDBNavbarLink>
+                </MDBNavbarItem>
               </LinkContainer>
               <LinkContainer to="/contact">
-                <Nav.Link href="#contact">Contact</Nav.Link>
+                <MDBNavbarItem>
+                <MDBNavbarLink href="#contact">Contact</MDBNavbarLink>
+                </MDBNavbarItem>
               </LinkContainer>
               <LinkContainer to="/portfolio">
-                <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                <MDBNavbarItem>
+                <MDBNavbarLink href="#portfolio">Portfolio</MDBNavbarLink>
+                </MDBNavbarItem>
               </LinkContainer>
               <LinkContainer to="/resume">
-                <Nav.Link href="#resume">My Resume</Nav.Link>
+                <MDBNavbarItem>
+                <MDBNavbarLink href="#resume">My Resume</MDBNavbarLink>
+                </MDBNavbarItem>
               </LinkContainer>
-            </Nav>
-        </Navbar.Collapse>
-    </Navbar>
+          </MDBNavbarNav>
+        </MDBCollapse>
+      </MDBContainer>
+    </MDBNavbar>
+    </>
   );
 }
 
