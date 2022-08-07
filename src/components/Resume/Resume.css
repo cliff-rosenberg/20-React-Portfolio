@@ -1,11 +1,5 @@
-.portfolio-card {
-    width: 340px;
-    max-width: calc(100% - 20px);
-    margin: 0 auto;
-    padding: 2px 2px;
-}
-
 .bkgrd {
+    height: 100vh;
     background: rgb(29, 180, 252);
     background: radial-gradient(circle, rgb(29, 180, 252) 0%, rgb(255, 255, 255) 100%);
 }
