@@ -19,11 +19,11 @@ const Portfolio = () => {
     });
     return (
         <MDBContainer breakpoint="sm" className="vh-100 bkgrd">
-            <MDBRow className="g-4">
+            <MDBRow className="g-4 pt-2">
             {Array.from({ length: cardQuan }).map((_, idx) => (
                 <MDBCol key={idx}>
                     <MDBCard className="portfolio-card">
-                        <MDBCardImage className="rounded mx-auto" position="top" src="holder.js/320x240" />
+                        <MDBCardImage className="rounded mx-auto pt-2" position="top" src="holder.js/320x240" />
                         <MDBCardBody>
                         <MDBCardTitle>{cardsText[idx].title}</MDBCardTitle>
                         <MDBCardText>
