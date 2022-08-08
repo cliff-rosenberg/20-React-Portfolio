@@ -4,11 +4,12 @@ import hawaii from '../../images/cliff-hawaii.png'
 
 const Home = () => {
     return (
-        <MDBContainer className="text-center vh-100 bkgrd">
-            <div className="pt-4">
-                <img src={hawaii} className='img-fluid rounded-pill shadow-4' alt='...' />
+        <MDBContainer fluid className="text-center vh-100 bkgrd">
+            <div className="pt-2 vh-100">
+                <img src={hawaii} className='img-fluid rounded-pill shadow-4-strong' alt='Cliff in Hawaii' />
+                <p className=" my-0 py-0 text-dark fs-1">Welcome to my portfolio page!</p>
             </div>
-            <div className="text-dark fs-1">Welcome to my portfolio page!</div>
+            
         </MDBContainer>
     )
 };
