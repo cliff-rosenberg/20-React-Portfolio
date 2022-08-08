@@ -5,7 +5,7 @@ import cliff from '../../images/cliff-headshot2-sm.jpg';
 
 const About = () => {
     return (
-        <MDBContainer breakpoint="md" className="vh-100 bkgrd">
+        <MDBContainer fluid className="vh-100 bkgrd">
             <div className="d-flex justify-content-center flex-column flex-sm-row">
 
                 <MDBCard className="order-sm-2 card-picture my-4 mx-auto mx-sm-0">
