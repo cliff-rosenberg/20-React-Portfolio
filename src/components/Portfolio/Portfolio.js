@@ -1,38 +1,117 @@
-import React, { useEffect } from 'react';
-import { MDBContainer, MDBRow, MDBCard, MDBCol, MDBCardBody, MDBCardTitle, MDBCardText, MDBCardImage } from 'mdb-react-ui-kit';
-import { run as runHolder } from 'holderjs/holder';
+import React from 'react';
+import { 
+    MDBContainer, 
+    MDBRow, 
+    MDBCard, 
+    MDBCol, 
+    MDBCardBody, 
+    MDBCardTitle, 
+    MDBCardText,
+    MDBCardLink, 
+    MDBCardImage,
+    MDBCardFooter
+    } from 'mdb-react-ui-kit';
+
+import card1Img from '../../images/weather-forecast-sm.png'
+import card2Img from '../../images/acme-invoicer-sm.png'
+import card3Img from '../../images/streaming-searcher-sm.png'
+import card4Img from '../../images/tech-blog-mvc-sm.png'
+import card5Img from '../../images/text-editor-pwa-sm.png'
+import card6Img from '../../images/workday-scheduler-sm.png'
 import './Portfolio.css'
 
 const Portfolio = () => {
-    const cardsText = [
-        {title: "Card 1", text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."},
-        {title: "Card 2", text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."},
-        {title: "Card 3", text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."},
-        {title: "Card 4", text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."},
-        {title: "Card 5", text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."},
-        {title: "Card 6", text: "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."}
-    ];
-    const cardQuan = 6;// set to amount of objects in array
-
-    useEffect(() => {
-        runHolder('image-class-name');
-    });
+    
     return (
-        <MDBContainer breakpoint="sm" className="vh-100 bkgrd">
-            <MDBRow className="g-4 pt-2">
-            {Array.from({ length: cardQuan }).map((_, idx) => (
-                <MDBCol key={idx}>
-                    <MDBCard className="portfolio-card">
-                        <MDBCardImage className="rounded mx-auto pt-2" position="top" src="holder.js/320x240" />
+        <MDBContainer fluid className="h-100 pb-4 bkgrd">
+            <MDBRow className="row-cols-1 row-cols-md-3 g-3 pt-2">
+                <MDBCol>
+                    <MDBCard className="h-100">
+                        <MDBCardImage className="img-thumbnail" position="top" src={card1Img} />
                         <MDBCardBody>
-                        <MDBCardTitle>{cardsText[idx].title}</MDBCardTitle>
+                        <MDBCardTitle>Weather Forecast Dashboard</MDBCardTitle>
                         <MDBCardText>
-                            {cardsText[idx].text}
+                            A "weather dashboard" app that takes a city name and returns weather data from the OpenWeather API. Uses the Bulma.io CSS framework for page styling.
                         </MDBCardText>
                         </MDBCardBody>
+                        <MDBCardFooter>
+                        <MDBCardLink href='#'>Repository link</MDBCardLink>
+                        </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
-            ))}
+                <MDBCol>
+                    <MDBCard className="h-100">
+                        <MDBCardImage className="img-thumbnail" position="top" src={card2Img} />
+                        <MDBCardBody>
+                        <MDBCardTitle>Business Invoice App</MDBCardTitle>
+                        <MDBCardText>
+                            A customer management and inventory management system with invoice billing functions using the "Model-View-Controller" concept.
+                        </MDBCardText>
+                        </MDBCardBody>
+                        <MDBCardFooter>
+                        <MDBCardLink href='#'>Repository link</MDBCardLink>
+                        </MDBCardFooter>
+                    </MDBCard>
+                </MDBCol>
+                <MDBCol>
+                    <MDBCard className="h-100">
+                        <MDBCardImage className="img-thumbnail" position="top" src={card3Img} />
+                        <MDBCardBody>
+                        <MDBCardTitle>Online Streaming Searcher</MDBCardTitle>
+                        <MDBCardText>
+                            This web app is used for searching movies by title name and finding a source to stream or buy them from using API calls.
+
+                        </MDBCardText>
+                        </MDBCardBody>
+                        <MDBCardFooter>
+                        <MDBCardLink href='#'>Repository link</MDBCardLink>
+                        </MDBCardFooter>
+                    </MDBCard>
+                </MDBCol>
+            </MDBRow>
+            <MDBRow className="row-cols-1 row-cols-md-3 g-3 pt-2">
+                <MDBCol>
+                    <MDBCard className="h-100">
+                        <MDBCardImage className="img-thumbnail" position="top" src={card4Img} />
+                        <MDBCardBody>
+                        <MDBCardTitle>Tech Blog</MDBCardTitle>
+                        <MDBCardText>
+                            A simple Tech Blog using the Model-View-Controller format. A MySQL database is used to store User data, as well as Posts and Comments on those Posts.
+                        </MDBCardText>
+                        </MDBCardBody>
+                        <MDBCardFooter>
+                        <MDBCardLink href='#'>Repository link</MDBCardLink>
+                        </MDBCardFooter>
+                    </MDBCard>
+                </MDBCol>
+                <MDBCol>
+                    <MDBCard className="h-100">
+                        <MDBCardImage className="img-thumbnail" position="top" src={card5Img} />
+                        <MDBCardBody>
+                        <MDBCardTitle>Simple Text Editor</MDBCardTitle>
+                        <MDBCardText>
+                            A Progressive Web Application using JavaScript, Webpack and Workbox to create a simple text editor.
+                        </MDBCardText>
+                        </MDBCardBody>
+                        <MDBCardFooter>
+                        <MDBCardLink href='#'>Repository link</MDBCardLink>
+                        </MDBCardFooter>
+                    </MDBCard>
+                </MDBCol>
+                <MDBCol>
+                    <MDBCard className="h-100">
+                        <MDBCardImage className="img-thumbnail" position="top" src={card6Img} />
+                        <MDBCardBody>
+                        <MDBCardTitle>Workday Scheduler</MDBCardTitle>
+                        <MDBCardText>
+                            A simple workday scheduler app using HTML, CSS and JavaScript. Data presistence is provided by local storage API of browser.
+                        </MDBCardText>
+                        </MDBCardBody>
+                        <MDBCardFooter>
+                        <MDBCardLink href='#'>Repository link</MDBCardLink>
+                        </MDBCardFooter>
+                    </MDBCard>
+                </MDBCol>
             </MDBRow>
         </MDBContainer>
         )
