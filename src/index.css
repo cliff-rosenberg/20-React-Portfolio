@@ -17,7 +17,7 @@ code {
   color: white;
 }
 
-.bkgrd {
+#root {
   height: 100vh;
   background: rgb(29, 180, 252);
   background: radial-gradient(circle, rgb(29, 180, 252) 0%, rgb(255, 255, 255) 100%);
