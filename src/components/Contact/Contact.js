@@ -17,7 +17,7 @@ const Contact = () => {
   };
 
     return (
-      <MDBContainer className="bkgrd">
+      <MDBContainer fluid className="vh-100 bkgrd">
           <div className="d-flex w-100 justify-content-center" >
               
               <form className="w-25 mt-4" onSubmit={handleSubmit(onSubmit)}>
