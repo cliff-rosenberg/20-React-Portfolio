@@ -8,11 +8,11 @@ const About = () => {
         <MDBContainer breakpoint="md" className="vh-100 bkgrd">
             <div className="d-flex justify-content-center flex-column flex-sm-row">
 
-                <MDBCard className="order-sm-2 card-picture mx-auto mx-sm-0">
+                <MDBCard className="order-sm-2 card-picture my-4 mx-auto mx-sm-0">
                     <MDBCardImage variant="top" className="img-fluid rounded" src={cliff} />
                 </MDBCard>
                 
-                <MDBCard border="dark" className="order-sm-1 card-text mx-auto mx-sm-0">
+                <MDBCard border="dark" className="order-sm-1 my-4 card-text mx-auto mx-sm-0">
                     <MDBCardBody>
                     <MDBCardTitle>About Cliff</MDBCardTitle>
                     <MDBCardText>
