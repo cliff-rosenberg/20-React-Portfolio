@@ -21,11 +21,13 @@ Link: [MIT License](https://opensource.org/licenses/MIT)
 
 ## Description
 
-TODO
+This is a personal portfolio page using React and the various features that React for Web provides. There are seperate sections provided for an "About Me" page, an illustrative "Portfolio" page with links to project on Github, a page for a downloadable copy of a resume, and a simple "Contact" form.
 
 ## Installation
 
-TODO
+No installation is necessary, the app is deployed at Github Pages:
+
+ [https://cliff-rosenberg.github.io/20-React-Portfolio/](https://cliff-rosenberg.github.io/20-React-Portfolio/)
 
 ## Screenshots
 
@@ -33,11 +35,19 @@ TODO
 
 ## Usage
 
-TODO
+The app is currently deployed at Github Pages:
+
+ [https://cliff-rosenberg.github.io/20-React-Portfolio/](https://cliff-rosenberg.github.io/20-React-Portfolio/)
 
 ## Credits
 
-TODO
+React.js
+
+CSS styling and components from the 'MDB React UI Kit' project
+
+Form validation functions provided by "Reack Hook Forms"
+
+
 
 ## Contributing
 
