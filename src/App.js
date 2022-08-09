@@ -14,7 +14,7 @@ function App() {
     <div className="App">
     <BrowserRouter>
       <MyNav />
-      <Routes basename="/20-React-Portfolio">
+      <Routes basename={`/${process.env.PUBLIC_URL}`}>
         <Route exact path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/portfolio" element={<Portfolio />}></Route>
