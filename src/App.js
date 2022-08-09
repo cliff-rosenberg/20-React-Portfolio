@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import MyNav from './components/Navigation/MyNav';
 import Footer from "./components/Footer/Footer";
@@ -12,17 +12,16 @@ import Resume from './components/Resume/Resume';
 function App() {
   return (
     <div className="App">
-    <Router>
+    <BrowserRouter>
       <MyNav />
-      <Routes>
+      <Routes basename="/20-React-Portfolio">
         <Route exact path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route exact path="/portfolio" element={<Portfolio />}></Route>
         <Route exact path="/resume" element={<Resume />}></Route>
         <Route exact path="/contact" element={<Contact />}></Route>
       </Routes>
-      
-    </Router>
+    </BrowserRouter>
     <Footer />
     </div>
   );
