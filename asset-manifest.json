@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.deb8eab7.css",
+    "main.js": "/static/js/main.a6acc8f7.js",
+    "static/media/cliff-hawaii.png": "/static/media/cliff-hawaii.4f761569227070b5f3b8.png",
+    "static/media/cliff-headshot2-sm.jpg": "/static/media/cliff-headshot2-sm.dd4a93e9bec171a892b3.jpg",
+    "static/media/streaming-searcher-sm.png": "/static/media/streaming-searcher-sm.0b1301fbc5be02e0237e.png",
+    "static/media/weather-forecast-sm.png": "/static/media/weather-forecast-sm.e93339efd5a97300c114.png",
+    "static/media/text-editor-pwa-sm.png": "/static/media/text-editor-pwa-sm.62104875ada358c05ad4.png",
+    "static/media/tech-blog-mvc-sm.png": "/static/media/tech-blog-mvc-sm.3e63fd1988645e12df02.png",
+    "static/media/workday-scheduler-sm.png": "/static/media/workday-scheduler-sm.4c7010f83a6847233a8a.png",
+    "static/media/acme-invoicer-sm.png": "/static/media/acme-invoicer-sm.87e73b20159bfe626a4f.png",
+    "index.html": "/index.html",
+    "main.deb8eab7.css.map": "/static/css/main.deb8eab7.css.map",
+    "main.a6acc8f7.js.map": "/static/js/main.a6acc8f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deb8eab7.css",
+    "static/js/main.a6acc8f7.js"
+  ]
+}
