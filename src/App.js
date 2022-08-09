@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import './App.css';
 import MyNav from './components/Navigation/MyNav';
 import Footer from "./components/Footer/Footer";
@@ -12,7 +12,6 @@ import Resume from './components/Resume/Resume';
 function App() {
   return (
     <div className="App">
-    <BrowserRouter>
       <MyNav />
       <Routes basename={`/${process.env.PUBLIC_URL}`}>
         <Route exact path="/" element={<Home />}></Route>
@@ -21,7 +20,6 @@ function App() {
         <Route path="/resume" element={<Resume />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
-    </BrowserRouter>
     <Footer />
     </div>
   );
