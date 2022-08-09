@@ -17,9 +17,9 @@ function App() {
       <Routes basename="/20-React-Portfolio">
         <Route exact path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
-        <Route exact path="/portfolio" element={<Portfolio />}></Route>
-        <Route exact path="/resume" element={<Resume />}></Route>
-        <Route exact path="/contact" element={<Contact />}></Route>
+        <Route path="/portfolio" element={<Portfolio />}></Route>
+        <Route path="/resume" element={<Resume />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
       </Routes>
     </BrowserRouter>
     <Footer />
