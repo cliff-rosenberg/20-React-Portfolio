@@ -35,7 +35,7 @@ const Portfolio = () => {
                         </MDBCardText>
                         </MDBCardBody>
                         <MDBCardFooter>
-                        <MDBCardLink href='#'>Repository link</MDBCardLink>
+                        <MDBCardLink href='https://github.com/cliff-rosenberg/06-Weather_Dashboard'>Repository link</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
@@ -49,7 +49,7 @@ const Portfolio = () => {
                         </MDBCardText>
                         </MDBCardBody>
                         <MDBCardFooter>
-                        <MDBCardLink href='#'>Repository link</MDBCardLink>
+                        <MDBCardLink href='https://github.com/cliff-rosenberg/Acme-Invoicer'>Repository link</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
@@ -64,7 +64,7 @@ const Portfolio = () => {
                         </MDBCardText>
                         </MDBCardBody>
                         <MDBCardFooter>
-                        <MDBCardLink href='#'>Repository link</MDBCardLink>
+                        <MDBCardLink href='https://github.com/cliff-rosenberg/Streaming-Project'>Repository link</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
@@ -80,7 +80,7 @@ const Portfolio = () => {
                         </MDBCardText>
                         </MDBCardBody>
                         <MDBCardFooter>
-                        <MDBCardLink href='#'>Repository link</MDBCardLink>
+                        <MDBCardLink href='https://github.com/cliff-rosenberg/14-MVC-Tech-Blog'>Repository link</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
@@ -94,7 +94,7 @@ const Portfolio = () => {
                         </MDBCardText>
                         </MDBCardBody>
                         <MDBCardFooter>
-                        <MDBCardLink href='#'>Repository link</MDBCardLink>
+                        <MDBCardLink href='https://github.com/cliff-rosenberg/19-Text-Editor-PWA'>Repository link</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
@@ -108,7 +108,7 @@ const Portfolio = () => {
                         </MDBCardText>
                         </MDBCardBody>
                         <MDBCardFooter>
-                        <MDBCardLink href='#'>Repository link</MDBCardLink>
+                        <MDBCardLink href='https://github.com/cliff-rosenberg/05-Work_Day_Scheduler'>Repository link</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
