@@ -34,8 +34,9 @@ const Portfolio = () => {
                             A "weather dashboard" app that takes a city name and returns weather data from the OpenWeather API. Uses the Bulma.io CSS framework for page styling.
                         </MDBCardText>
                         </MDBCardBody>
-                        <MDBCardFooter>
+                        <MDBCardFooter className="text-center">
                         <MDBCardLink href='https://github.com/cliff-rosenberg/06-Weather_Dashboard'>Repository link</MDBCardLink>
+                        <MDBCardLink href='https://cliff-rosenberg.github.io/06-Weather_Dashboard/'>Deployed app</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
@@ -48,8 +49,9 @@ const Portfolio = () => {
                             A customer management and inventory management system with invoice billing functions using the "Model-View-Controller" concept.
                         </MDBCardText>
                         </MDBCardBody>
-                        <MDBCardFooter>
+                        <MDBCardFooter className="text-center">
                         <MDBCardLink href='https://github.com/cliff-rosenberg/Acme-Invoicer'>Repository link</MDBCardLink>
+                        <MDBCardLink href='https://pacific-beach-42504.herokuapp.com/'>Deployed app</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
@@ -63,8 +65,9 @@ const Portfolio = () => {
 
                         </MDBCardText>
                         </MDBCardBody>
-                        <MDBCardFooter>
+                        <MDBCardFooter className="text-center">
                         <MDBCardLink href='https://github.com/cliff-rosenberg/Streaming-Project'>Repository link</MDBCardLink>
+                        <MDBCardLink href='https://cliff-rosenberg.github.io/Streaming-Project/'>Deployed app</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
@@ -79,8 +82,9 @@ const Portfolio = () => {
                             A simple Tech Blog using the Model-View-Controller format. A MySQL database is used to store User data, as well as Posts and Comments on those Posts.
                         </MDBCardText>
                         </MDBCardBody>
-                        <MDBCardFooter>
+                        <MDBCardFooter className="text-center">
                         <MDBCardLink href='https://github.com/cliff-rosenberg/14-MVC-Tech-Blog'>Repository link</MDBCardLink>
+                        <MDBCardLink href='https://mysterious-sea-13726.herokuapp.com/'>Deployed app</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
@@ -93,8 +97,9 @@ const Portfolio = () => {
                             A Progressive Web Application using JavaScript, Webpack and Workbox to create a simple text editor.
                         </MDBCardText>
                         </MDBCardBody>
-                        <MDBCardFooter>
+                        <MDBCardFooter className="text-center">
                         <MDBCardLink href='https://github.com/cliff-rosenberg/19-Text-Editor-PWA'>Repository link</MDBCardLink>
+                        <MDBCardLink href='https://jate-app-v1.herokuapp.com/'>Deployed app</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
@@ -104,11 +109,12 @@ const Portfolio = () => {
                         <MDBCardBody>
                         <MDBCardTitle>Workday Scheduler</MDBCardTitle>
                         <MDBCardText>
-                            A simple workday scheduler app using HTML, CSS and JavaScript. Data presistence is provided by local storage API of browser.
+                            A simple workday scheduler app using HTML, CSS and JavaScript. Data persistence is provided by the local storage API of the browser.
                         </MDBCardText>
                         </MDBCardBody>
-                        <MDBCardFooter>
+                        <MDBCardFooter className="text-center">
                         <MDBCardLink href='https://github.com/cliff-rosenberg/05-Work_Day_Scheduler'>Repository link</MDBCardLink>
+                        <MDBCardLink href='https://cliff-rosenberg.github.io/05-Work_Day_Scheduler/'>Deployed app</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
