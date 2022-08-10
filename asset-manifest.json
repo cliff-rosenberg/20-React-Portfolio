@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/20-React-Portfolio/static/css/main.deb8eab7.css",
-    "main.js": "/20-React-Portfolio/static/js/main.1e0efee5.js",
+    "main.js": "/20-React-Portfolio/static/js/main.caf36353.js",
     "static/media/cliff-hawaii.png": "/20-React-Portfolio/static/media/cliff-hawaii.4f761569227070b5f3b8.png",
     "static/media/cliff-headshot2-sm.jpg": "/20-React-Portfolio/static/media/cliff-headshot2-sm.dd4a93e9bec171a892b3.jpg",
+    "static/media/laptop-resume.jpg": "/20-React-Portfolio/static/media/laptop-resume.68ccb935e2cf6527f21d.jpg",
     "static/media/streaming-searcher-sm.png": "/20-React-Portfolio/static/media/streaming-searcher-sm.0b1301fbc5be02e0237e.png",
     "static/media/weather-forecast-sm.png": "/20-React-Portfolio/static/media/weather-forecast-sm.e93339efd5a97300c114.png",
     "static/media/text-editor-pwa-sm.png": "/20-React-Portfolio/static/media/text-editor-pwa-sm.62104875ada358c05ad4.png",
@@ -12,10 +13,10 @@
     "static/media/acme-invoicer-sm.png": "/20-React-Portfolio/static/media/acme-invoicer-sm.87e73b20159bfe626a4f.png",
     "index.html": "/20-React-Portfolio/index.html",
     "main.deb8eab7.css.map": "/20-React-Portfolio/static/css/main.deb8eab7.css.map",
-    "main.1e0efee5.js.map": "/20-React-Portfolio/static/js/main.1e0efee5.js.map"
+    "main.caf36353.js.map": "/20-React-Portfolio/static/js/main.caf36353.js.map"
   },
   "entrypoints": [
     "static/css/main.deb8eab7.css",
-    "static/js/main.1e0efee5.js"
+    "static/js/main.caf36353.js"
   ]
 }
