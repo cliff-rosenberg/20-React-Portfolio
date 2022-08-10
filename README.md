@@ -31,7 +31,9 @@ No installation is necessary, the app is deployed at Github Pages:
 
 ## Screenshots
 
-TODO
+This is the "Portfolio" gallery page:
+
+![screenshot](./assets/screenshot1.png)
 
 ## Usage
 
@@ -41,13 +43,11 @@ The app is currently deployed at Github Pages:
 
 ## Credits
 
-React.js
+[React.js](https://reactjs.org/) - A JavaScript library for building user interfaces
 
-CSS styling and components from the 'MDB React UI Kit' project
+CSS styling and components from the ['MDB React UI Kit'](https://mdbootstrap.com/docs/react/) project
 
-Form validation functions provided by "Reack Hook Forms"
-
-
+Form validation functions provided by ['Reack Hook Forms'](https://react-hook-form.com/) toolkit
 
 ## Contributing
 
